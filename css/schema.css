@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
+#schema {
+  font-family: 'Sriracha', cursive;
+}
+
+#appsSchema {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#appsSchema #appWeb {
+  width: 280px;
+  height: 160px;
+  border: 5px #c0c0c0 solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 6px;
+}
+
+#appsSchema #appWeb > div {
+  background-color: #c0c0c0;
+  width: 95%;
+  padding: 0 2.5% 0 2.5%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#appsSchema #appWeb > div #headerAppWeb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 15%;
+}
+
+#appsSchema #appWeb > div #headerAppWeb #titleAppWeb {
+  width: 60%;
+  height: 100%;
+  background-color: #4e72a8;
+  text-align: center;
+}
+
+#appsSchema #appWeb > div #headerAppWeb #menuAppWeb {
+  width: 15%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#appsSchema #appWeb > div #headerAppWeb #menuAppWeb > div {
+  background-color: #4e72a8;
+  height: 25%;
+}
+
+#appsSchema #appWeb > div #headerAppWeb #rondAppWeb {
+  background-color: #4e72a8;
+  width: 15%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#appsSchema #appWeb > div #sectionAppWeb {
+  height: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#appsSchema #appWeb > div #sectionAppWeb #sectionAppWeb1 {
+  width: 52%;
+  background-color: #414141;
+}
+
+#appsSchema #appWeb > div #sectionAppWeb #sectionAppWeb1 path {
+  stroke-dasharray: 535px;
+  stroke-dashoffset: 535px;
+  -webkit-animation: lineanimsaw 2s ease forwards 6s;
+          animation: lineanimsaw 2s ease forwards 6s;
+}
+
+@-webkit-keyframes lineanimsaw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes lineanimsaw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#appsSchema #appWeb > div #sectionAppWeb #sectionAppWeb2, #appsSchema #appWeb > div #sectionAppWeb #sectionAppWeb3 {
+  width: 21%;
+  background-color: #d84747;
+}
+
+#appsSchema #appWeb > div #footerAppWeb {
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#appsSchema #appWeb > div #footerAppWeb > div {
+  width: 18%;
+  background-color: #322f5c;
+}
+
+#appsSchema #appMobile {
+  width: 80px;
+  height: 160px;
+  border: 5px #c0c0c0 solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 6px;
+  color: #313131;
+}
+
+#appsSchema #appMobile > div {
+  background-color: #c0c0c0;
+  width: 95%;
+  padding: 0 2.5% 0 2.5%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#appsSchema #appMobile > div #titleAppMobile {
+  height: 10%;
+  text-align: center;
+}
+
+#appsSchema #appMobile > div #headerAppMobile {
+  height: 40%;
+  background-color: #414141;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#appsSchema #appMobile > div #headerAppMobile > div {
+  height: 13%;
+  width: 90%;
+  background-color: #c0c0c0;
+}
+
+#appsSchema #appMobile > div #headerAppMobile #spacetopHeaderAppMobile {
+  background-color: #414141;
+  height: 1%;
+}
+
+#appsSchema #appMobile > div #headerAppMobile #btnHeaderAppMobile {
+  background-color: #2e2e2e;
+  border-top: 2px #2e2e2e solid;
+  border-bottom: 2px #2e2e2e solid;
+}
+
+#appsSchema #appMobile > div #sectionAppMobile {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#appsSchema #appMobile > div #sectionAppMobile > div {
+  width: 48%;
+  background-color: #d84747;
+}
+
+#appsSchema #appMobile > div #footerAppMobile {
+  height: 10%;
+  background-color: #322f5c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#appsSchema #appMobile > div #footerAppMobile > div {
+  background-color: #4e72a8;
+  width: 25%;
+  height: 70%;
+}
+
+#siteSchema {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #313131;
+}
+
+#siteSchema #siteWeb {
+  width: 280px;
+  height: 160px;
+  border: 5px #c0c0c0 solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 6px;
+}
+
+#siteSchema #siteWeb > div {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#siteSchema #siteWeb > div #headerSiteWeb {
+  width: 100%;
+  height: 14%;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+
+#siteSchema #siteWeb > div #footerSiteWeb {
+  width: 100%;
+  height: 10%;
+  background-color: #c0c0c0;
+  text-align: center;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #sectionSectionSiteWeb {
+  width: 72%;
+  background-color: #c0c0c0;
+  padding: 1% 0 1% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #sectionSectionSiteWeb #topSectionSectionSiteWeb {
+  height: 55%;
+  width: 94%;
+  background-color: #d84747;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #sectionSectionSiteWeb #bottomSectionSectionSiteWeb {
+  height: 30%;
+  width: 94%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #sectionSectionSiteWeb #bottomSectionSectionSiteWeb > div {
+  width: 31%;
+  background-color: #4e72a8;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #navSectionSiteWeb {
+  width: 26%;
+  background-color: #c0c0c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1% 0 1% 0;
+}
+
+#siteSchema #siteWeb > div #sectionSiteWeb #navSectionSiteWeb > div {
+  background-color: #414141;
+  height: 14%;
+  width: 80%;
+}
+
+#siteSchema #siteMobile {
+  width: 80px;
+  height: 160px;
+  border: 5px #c0c0c0 solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 6px;
+}
+
+#siteSchema #siteMobile > div {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#siteSchema #siteMobile > div #headerSiteMobile {
+  background-color: #c0c0c0;
+  font-size: 12px;
+  text-align: center;
+  height: 14%;
+  width: 100%;
+}
+
+#siteSchema #siteMobile > div #footerSiteMobile {
+  background-color: #c0c0c0;
+  font-size: 12px;
+  text-align: center;
+  height: 10%;
+  width: 100%;
+}
+
+#siteSchema #siteMobile > div #section1SiteMobile {
+  background-color: #d84747;
+  height: 44%;
+  width: 100%;
+}
+
+#siteSchema #siteMobile > div #section2SiteMobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 23%;
+  width: 100%;
+}
+
+#siteSchema #siteMobile > div #section2SiteMobile > div {
+  width: 46%;
+  background-color: #4e72a8;
+}
+
+.cs1 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 3900ms;
+          animation-delay: 3900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs2 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 4100ms;
+          animation-delay: 4100ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs3 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 4300ms;
+          animation-delay: 4300ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs4 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 4500ms;
+          animation-delay: 4500ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs5 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 4700ms;
+          animation-delay: 4700ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs6 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 4900ms;
+          animation-delay: 4900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs7 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 5100ms;
+          animation-delay: 5100ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs8 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 5300ms;
+          animation-delay: 5300ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs9 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 5500ms;
+          animation-delay: 5500ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs10 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 5700ms;
+          animation-delay: 5700ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs11 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 5900ms;
+          animation-delay: 5900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs12 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 6100ms;
+          animation-delay: 6100ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs13 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 6300ms;
+          animation-delay: 6300ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs14 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 6500ms;
+          animation-delay: 6500ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+.cs15 {
+  opacity: 0;
+  -webkit-animation-name: aparate;
+          animation-name: aparate;
+  -webkit-animation-delay: 6700ms;
+          animation-delay: 6700ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+}
+
+@-webkit-keyframes aparate {
+  from {
+    opacity: 0;
+    top: -10px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+@keyframes aparate {
+  from {
+    opacity: 0;
+    top: -10px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+
+.tohover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.tohover:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+/*# sourceMappingURL=schema.css.map */
