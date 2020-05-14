@@ -55,3 +55,21 @@ function closepvp(e) {
         pvpopen = false;
     }
 }
+
+function openlink(a){
+    switch (a) {
+        case 0:
+            window.open('https://www.facebook.com/rudy.attia.dev','_blank')
+            break;
+        case 1:
+            window.open('https://github.com/RudyAttia','_blank')
+            break;
+        case 2:
+            window.open('https://www.linkedin.com/in/rudy-attia-full-stack','_blank')
+            break;
+        case 3:
+            window.open('https://twitter.com/RudyattiaC','_blank')
+            break;
+        
+    }
+}
